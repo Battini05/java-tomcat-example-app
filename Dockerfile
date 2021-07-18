@@ -8,4 +8,4 @@
 #ENTRYPOINT ["java", "jar", "/jenkins-docker-project.jar"]
 
 FROM tomcat:8-jre8
-COPY /1.0-SNAPSHOT/jenkins-docker-project-1.0-SNAPSHOT.jar /usr/local/tomcat/webapps/jenkins-docker.jar
+COPY /1.0-SNAPSHOT/jenkins-docker-project-1.0-SNAPSHOT.war /usr/local/tomcat/webapps/jenkins-docker.war
